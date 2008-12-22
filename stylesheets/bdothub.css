@@ -1,0 +1,64 @@
+* { padding: 0; margin: 0; }
+
+body {
+  font-family: Helvetica, Arial, "MS Trebuchet", sans-serif;
+  background-color: #333;
+}
+
+#banner {
+  text-indent: -2000px;
+  height: 125px;
+  background: #7ae url(../images/bdotdub.png) center left no-repeat;
+}
+
+#banner h1 a {
+  position: absolute;
+  display: block;
+  width: 685px;
+  height: 85px;
+  margin: 20px 10px;
+}
+
+#info {
+  padding: 10px 20px;
+  background-color: #fec;
+  color: #444;
+}
+
+#info a {
+  color: #444;
+}
+
+#info p {
+  padding: 5px 0;
+  width: 625px;
+  line-height: 1.6em;
+  letter-spacing: -0.01em;
+}
+
+#work {
+  padding: 20px;
+  color: #fff;
+}
+
+#work ul {
+  list-style-type: none;
+}
+
+#work ul li {
+  padding: 7px 0;
+  width: 625px;
+  line-height: 1.5em;
+  font-size: 90%;
+}
+
+#work a {
+  color: #7ae;
+  text-decoration: none;
+}
+
+#work a.project {
+  font-size: 200%;
+  margin-right: 10px;
+  text-decoration: underline;
+}
